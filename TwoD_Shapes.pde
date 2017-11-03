@@ -9,8 +9,8 @@ fullScreen();
 //Functions 
 
 ellipse(displayWidth/2, displayHeight/2, displayHeight, displayHeight ); //Main face shape
-rect(displayWidth*1/3, displayHeight/6, displayHeight/6, displayHeight/12);//left eyebrow
-rect(displayWidth*3/5,displayHeight/6, displayHeight/6, displayHeight/12); //right eyebrow
+rect(displayWidth*1/3, displayHeight/6, displayHeight/7, displayHeight/13);//left eyebrow
+rect(displayWidth*3/5,displayHeight/6, displayHeight/7, displayHeight/13); //right eyebrow
 ellipse(displayWidth*3/8, displayHeight/3, displayHeight/6, displayHeight/12);// Eye #1
 ellipse(displayWidth*3/8, displayHeight/3, displayHeight/12, displayHeight/12); //eyeball #1
 ellipse(displayWidth*5/8, displayHeight/3, displayHeight/6, displayHeight/12); // Eye #2
