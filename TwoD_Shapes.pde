@@ -37,4 +37,4 @@ rect(displayWidth/2, (displayHeight/2)+(displayHeight/8), displayHeight/4, displ
 fill(#000000);
 rect (displayWidth/2, (displayHeight/2)+(displayHeight/10),displayHeight/2,displayHeight/16); //Moustashe
 rect(displayWidth/2, (displayHeight/2)+(displayHeight/3), displayHeight/8, displayHeight/6); //bottom hair
-rectMode(CORNER); //Always reset defaults, good programing practic
+rectMode(CORNER); //Always reset defaults, good programing practice
