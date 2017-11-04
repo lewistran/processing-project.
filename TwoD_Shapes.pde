@@ -26,8 +26,8 @@ ellipse(displayWidth*5/8, displayHeight/3, displayHeight/12, displayHeight/12); 
 rectMode(CENTER);  // Set rectMode to CENTER of the canvas
 
 fill(#FFDBAC);
-ellipse( displayWidth*1/5, displayHeight/3, displayHeight/8, displayHeight/5); //left ear                                                                
-ellipse(displayWidth*4/5, displayHeight/3, displayHeight/8, displayHeight/5);   // Right ear            
+ellipse( displayWidth*1/5, displayHeight/2, displayHeight/8, displayHeight/6); //left ear                                                                
+ellipse(displayWidth*4/5, displayHeight/2, displayHeight/8, displayHeight/6);   // Right ear            
 rect (displayWidth/2, displayHeight/2, displayHeight/11, displayHeight/11); // Nose
 
 fill(#FFC0CB);
@@ -37,4 +37,4 @@ rect(displayWidth/2, (displayHeight/2)+(displayHeight/8), displayHeight/4, displ
 fill(#000000);
 rect (displayWidth/2, (displayHeight/2)+(displayHeight/10),displayHeight/2,displayHeight/16); //Moustashe
 rect(displayWidth/2, (displayHeight/2)+(displayHeight/3), displayHeight/8, displayHeight/6); //bottom hair
-rectMode(CORNER); //Always reset defaults, good programing practice,
+rectMode(CORNER); //Always reset defaults, good programing practic
