@@ -9,7 +9,7 @@ fill() //
 //title
 
 fullScreen();
-String title = " Lewis's Study Tools";
+String title = " Lewis's Study Review";
 PFont titleFont;
 titleFont = createFont("ACaslonPro-Bold-48", 80);
 rect(displayWidth*1/4, displayHeight*0,displayWidth*1/2,displayHeight*1/8 ); //title
