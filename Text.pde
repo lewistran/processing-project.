@@ -101,7 +101,7 @@ rect (displayWidth*1/2, displayHeight/2, displayWidth*1/4, displayHeight*1/7); /
 textAlign (CENTER, CENTER); //Horizontal / Vertical CENTER
 textSize (displayHeight*1/6); //textWidth 
 textLength = displayWidth*1/8; //Variable inside for loop
-for (float i=1; textWidth(title) > displayWidth*1/9; i = i - 0.01) {
+for (float i=1; textWidth(title) > displayWidth*1/7; i = i - 0.01) {
   textLength = textLength*i;
   textSize (textLength);
   println("For" + textLength);
