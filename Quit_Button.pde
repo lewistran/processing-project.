@@ -12,9 +12,9 @@ void draw (){
  
   //noLoop(); //debugging
   
-fill(boarder);
+fill(boarder); //outside of the button
 rect(500,550,100,50); 
-fill(inside);
+fill(inside); //inside of the button
 rect(500+10, 550+10, 100-10-10, 50-10-10);
 
 //Hovering Effect
