@@ -8,17 +8,17 @@
 //fullScreen();
 //print("My display width is ", + displayWidth + "/n My display Height is " + displayHeight);
 //draw () {}
-//ellipse(displayWidth/2, displayHeight/2, displsayHeight, displayHeight ); //Main face
+//ellipse(displayWidth/2, displayHeight/2, displsayHeight, displayHeight ); // face
 //ellipse(displayWidth*3/8, displayHeight/4, displayHeight/10, displayHeight/10);// Left Eye                      
 //ellipse(displayWidth*5/8, displayHeight/4, displayHeight/10, displayHeight/10); //  Right Eye 
-ellipse(250,250,500,500);
-ellipse(125,125,75,75);
-ellipse(375,125,75,75);
+ellipse(250,250,500,500); // face
+ellipse(125,125,75,75); //left eye
+ellipse(375,125,75,75); // right eye
 rectMode(CENTER);  // Set rectMode to CENTER of the canvas
 //rect (displayWidth/2, displayHeight/2, displayHeight/11, displayHeight/11); // Nose
 //rect (displayWidth/2, (displayHeight/2)+(displayHeight/5),displayHeight/2,(displayHeight/10));// Mouth
-rect(250,250,50,50);
-rect(250, 250+90, 250, 20);
+rect(250,250,50,50); //nose
+rect(250, 250+90, 250, 20); //mouth
 rectMode(CORNER); //Always reset defaults, good programing practice,
  }
 
