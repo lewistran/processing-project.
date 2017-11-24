@@ -1,16 +1,15 @@
-//fullScreen();
-PImage[] pic = new PImage[3]; //Array; .length is "3"
-float imageX = 860, imageY = 529;
-float scaleX, scaleY, scale;
-float imageXscaled;
-float imageYscaled;
+float imageXscaled, imageYscaled;
 
 void setup() {
-  size(600, 600); //Similar to our rect()
-  float rectWidth = width, rectHeight = height; //width / height 
-  //pic[0] = loadImage("Tommy.jpg"); //Thumbnail 682 x 384
-  //pic[1] = loadImage("CM.jpg"); //661 x 384
-  pic[2] = loadImage("nba-live-18.jpg"); //555 x 328
+  size(600, 600); //Similar to the rect
+  float rectWidth = width, rectHeight = height; //width and height 
+  //pic[0] = loadImage("Tommy.jpg"); //Thumbnail #1 682 x 384
+  pic[1] = loadImage("CM.jpg"); //Thumbnail #2 661 x 384
+  //pic[2] = loadImage("nba-live-18.jpg"); //Thumbnail #3 555 x 328
+
+ //image(pic[0], 0, height*0/3, imageX, imageY);
+  image(pic[1], 0, height*0/3, imageX, imageY);
+  //image(pic[2], 0, height*0/3, imageX, imageY);
 
   //rect / image of scale
   scaleX = rectWidth / imageX;
@@ -18,14 +17,14 @@ void setup() {
   scaleY = rectHeight / imageY;
   println ("ScaleY: " + scaleY);
 
-  //pick small scale
+  //Pick the smallest scale
   if ( scaleX < scaleY ) {
     scale = scaleX;
   } else {
     scale = scaleY;
   }
 
-  //dimensions scale of the image
+  //Dimensions scale of the image
   imageXscaled = imageX * scale;
   imageYscaled = imageY * scale;
 
@@ -59,5 +58,5 @@ void setup() {
     imageX = imageXscaled; 
     imageY = imageYscaled;
   }
-  image(pic[2], 0, height*0/3, imageX, imageY);
+ 
 }
